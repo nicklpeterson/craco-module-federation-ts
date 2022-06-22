@@ -26,7 +26,7 @@ const getModuleFederationConfigPath = (additionalPaths = []) => {
     .shift();
 };
 
-module.exports = {
+export default {
   overrideWebpackConfig: ({ webpackConfig, pluginOptions }) => {
     const moduleFederationConfigPath = getModuleFederationConfigPath();
 

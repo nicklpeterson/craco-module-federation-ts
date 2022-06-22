@@ -1,6 +1,14 @@
 const webpack = require("webpack");
 const paths = require("react-scripts/config/paths");
 
+console.log("-------------------------------------------------")
+console.log("-------------------------------------------------")
+console.log("-------------------------------------------------")
+console.log("RUNNING CRACO-MOD-FED")
+console.log("-------------------------------------------------")
+console.log("-------------------------------------------------")
+console.log("-------------------------------------------------")
+
 const getModuleFederationConfigPath = (additionalPaths = []) => {
   const path = require("path");
   const fs = require("fs");

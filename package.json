@@ -19,7 +19,7 @@
     "url": "https://github.com/hasanayan/craco-module-federation/issues"
   },
   "homepage": "https://github.com/hasanayan/craco-module-federation#readme",
-  "main": "index.ts",
+  "main": "index.js",
   "directories": {
     "test": "test"
   },
@@ -28,9 +28,7 @@
   },
   "dependencies": {
     "@babel/core": "^7.18.5",
-    "@craco/craco": "^6.3.0"
-  },
-  "devDependencies": {
-    "@types/node": "^18.0.0"
+    "@craco/craco": "^6.3.0",
+    "typescript-require": "^0.3.0"
   }
 }

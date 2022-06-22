@@ -1,3 +1,8 @@
+require('typescript-require')({
+  targetES5: true,
+  exitOnError: true,
+  emitOnError: true
+});
 const webpack = require("webpack");
 const paths = require("react-scripts/config/paths");
 
@@ -26,7 +31,7 @@ const getModuleFederationConfigPath = (additionalPaths = []) => {
     .shift();
 };
 
-export default {
+module.exports = {
   overrideWebpackConfig: ({ webpackConfig, pluginOptions }) => {
     const moduleFederationConfigPath = getModuleFederationConfigPath();
 

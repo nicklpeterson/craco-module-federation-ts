@@ -9,6 +9,7 @@ const getModuleFederationConfigPath = (additionalPaths = []) => {
 
   const moduleFederationConfigFiles = [
     "modulefederation.config.js",
+    "modulefederation.config.ts",
     ...additionalPaths,
   ];
   return moduleFederationConfigFiles
